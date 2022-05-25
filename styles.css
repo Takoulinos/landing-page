@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+
+.image {
+    background-color: #1f2937;
+    display: flex;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    gap: 48px;
+}
+
+.pics{
+    display: flex;
+    gap: 48px;
+    align-self: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.blue {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #1f2937;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 1000px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+a {
+    font-size: 18px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882f6;
+    width: 128px;
+    height: 48px;
+    padding: 8px 24px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.call {
+    background-color: #3882f6;
+    padding: 64px 128px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    align-self: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: oblique;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.placeholder {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+body > * {
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 0;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    gap: 8px;
+    color: grey;
+}
